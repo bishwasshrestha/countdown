@@ -1,0 +1,42 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size:5rem;
+  font-weight: bold;  
+}
+
+.countdown-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  justify-content: center;  
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;    
+  width: 100vh;
+  padding: 10px;
+}
+
+.day,.hour,.minute,.second {
+  font-size: 30rem;
+}
+
+.countdown-image {
+  display: flex;  
+  justify-content: center;
+  height: 50vh;   
+}
+
+@media (max-width : 400 px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
